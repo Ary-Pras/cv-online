@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ary Prasetyo Cahyono — CV</title>
+<style>
+  :root{
+    --text:#1A1D22;
+    --text-dim:#5B6470;
+    --accent:#2B6CB0;
+    --border:#DDE1E6;
+    --bg:#FFFFFF;
+  }
+  *{box-sizing:border-box;margin:0;padding:0;}
+  body{
+    font-family: Arial, Helvetica, sans-serif;
+    color:var(--text);
+    background:var(--bg);
+    line-height:1.55;
+    max-width:780px;
+    margin:0 auto;
+    padding:48px 28px 80px;
+  }
+  h1{font-size:26px;font-weight:700;margin-bottom:4px;}
+  .role{font-size:15px;color:var(--text-dim);margin-bottom:14px;}
+  .contact{font-size:13.5px;color:var(--text-dim);margin-bottom:28px;}
+  .contact a{color:var(--accent);text-decoration:none;}
+  .contact span{margin-right:14px;}
+  h2{
+    font-size:14px;text-transform:uppercase;letter-spacing:0.6px;
+    border-bottom:2px solid var(--text);padding-bottom:5px;margin:28px 0 14px;
+  }
+  .entry{margin-bottom:16px;}
+  .entry-head{display:flex;justify-content:space-between;flex-wrap:wrap;gap:4px;margin-bottom:2px;}
+  .entry-title{font-weight:700;font-size:15px;}
+  .entry-org{font-size:14px;color:var(--text-dim);}
+  .entry-date{font-size:13px;color:var(--text-dim);white-space:nowrap;}
+  ul{margin:6px 0 0 20px;}
+  li{font-size:14px;margin-bottom:4px;}
+  .summary{font-size:14.5px;color:var(--text);}
+  .skills-grid{display:grid;grid-template-columns:1fr 1fr;gap:6px 24px;}
+  .skill-cat{font-size:13.5px;}
+  .skill-cat b{display:block;margin-bottom:2px;}
+  @media print{
+    body{padding:20px;}
+    a{color:var(--text) !important;}
+  }
+  @media (max-width:600px){
+    .skills-grid{grid-template-columns:1fr;}
+  }
+</style>
+</head>
+<body>
+
+<h1>Ary Prasetyo Cahyono</h1>
+<div class="role">Instrumentation Physics Student — AI &amp; IoT Engineering</div>
+<div class="contact">
+  <span>South Tangerang, Banten, Indonesia</span>
+  <span>089637463404</span>
+  <span><a href="mailto:arxpraset@gmail.com">arxpraset@gmail.com</a></span>
+  <span><a href="https://linkedin.com/in/ary-prasetyo-cahyono39a376297/" target="_blank" rel="noopener">LinkedIn</a></span>
+  <span><a href="https://github.com/arx666" target="_blank" rel="noopener">GitHub</a></span>
+</div>
+
+<h2>Summary</h2>
+<p class="summary">Final-year Instrumentation Physics student with hands-on experience in IoT system design, microcontroller programming, and system automation. Currently expanding into AI engineering: LLM API integration, prompt engineering, and RAG-based chatbot development. Experienced mentoring students in basic instrumentation and leading small technical teams.</p>
+
+<h2>Work Experience</h2>
+
+<div class="entry">
+  <div class="entry-head">
+    <span class="entry-title">Project Management &amp; IoT Intern</span>
+    <span class="entry-date">Apr 2024 – Aug 2024</span>
+  </div>
+  <div class="entry-org">Lembaga Minyak dan Gas Bumi (LEMIGAS) — South Jakarta, Jakarta</div>
+  <ul>
+    <li>Collaborated with a 13-person team to design and build an IoT-automated hydroponics system from scratch.</li>
+    <li>Assembled physical hardware including a panel box with ESP32 microcontroller and 5 sensor types.</li>
+    <li>Programmed ESP32 firmware (Arduino IDE) and established MQTT connections with 9 data topics.</li>
+    <li>Designed a real-time monitoring GUI dashboard using Node-RED displaying 5 live data streams.</li>
+  </ul>
+</div>
+
+<div class="entry">
+  <div class="entry-head">
+    <span class="entry-title">Electrical Division Member</span>
+    <span class="entry-date">Jun 2024 – Sep 2024</span>
+  </div>
+  <div class="entry-org">Smart Urban Farming (SUF) — South Tangerang, Banten</div>
+  <ul>
+    <li>Assisted in assembling, wiring, and troubleshooting plug-and-play IoT monitoring kits for urban agriculture.</li>
+    <li>Implemented wiring diagrams and integrated microcontrollers with environmental sensors.</li>
+    <li>Performed technical maintenance and sensor calibration for automated farming systems.</li>
+  </ul>
+</div>
+
+<h2>Education</h2>
+<div class="entry">
+  <div class="entry-head">
+    <span class="entry-title">Undergraduate in Physics (Instrumentation) — GPA 3.57/4.00</span>
+    <span class="entry-date">Sept 2021 – May 2026</span>
+  </div>
+  <div class="entry-org">Universitas Islam Syarif Hidayatullah Jakarta — South Tangerang, Banten</div>
+  <ul>
+    <li>Basic and advanced electronics lab assistant, supporting 50+ and 30+ physics students respectively.</li>
+    <li>Jury for prototype competition at student orientation, impacting 10+ teams.</li>
+    <li>Robotics speaker at an orphanage event, impacting 20+ attendees.</li>
+  </ul>
+</div>
+
+<h2>Projects</h2>
+<div class="entry">
+  <div class="entry-title">Voice-Controlled Robotic Hand with AI Integration (Final Thesis, 2025)</div>
+  <ul><li>Assistive robotic hand using OpenAI Whisper for speech recognition, integrated with a Wemos D1 R1 microcontroller to translate vocal commands into mechanical finger and palm movements.</li></ul>
+</div>
+<div class="entry">
+  <div class="entry-title">AI K3 Assistant — RAG Chatbot (2025)</div>
+  <ul><li>Streamlit chatbot for the oil &amp; gas sector using Groq's Llama 3 API with document-based Q&amp;A (SOP PDFs) and OCR fallback for scanned documents.</li></ul>
+</div>
+<div class="entry">
+  <div class="entry-title">Joystick-Controlled Robotic Arm Prototype (2025)</div>
+  <ul><li>Miniature robotic arm using Arduino and multiple servo motors with dual-axis joystick control.</li></ul>
+</div>
+<div class="entry">
+  <div class="entry-title">IoT Automatic Parking Barrier System (2024)</div>
+  <ul><li>Automated parking detection and access system integrating ultrasonic sensors and NFC modules via ThingSpeak.</li></ul>
+</div>
+<div class="entry">
+  <div class="entry-title">Arduino Real-Time Monitoring GUI (2023)</div>
+  <ul><li>Hardware-software system with Arduino R3, LDR sensor, and joystick, with a custom GUI for real-time sensor and joystick data graphs.</li></ul>
+</div>
+
+<h2>Organizational Experience</h2>
+<div class="entry">
+  <div class="entry-head">
+    <span class="entry-title">Secretary, Robotics Club of HIMAFI</span>
+    <span class="entry-date">Mar 2024 – Jan 2025</span>
+  </div>
+  <ul>
+    <li>Managed organizational documentation and coordinated weekly activities for 20+ members.</li>
+    <li>Organized and mentored an undergraduate robotics mentoring initiative impacting 20+ students.</li>
+  </ul>
+</div>
+<div class="entry">
+  <div class="entry-head">
+    <span class="entry-title">Head of Security, Health &amp; Cleanliness (K3) Division, EKSPEDISI</span>
+    <span class="entry-date">Oct 2022</span>
+  </div>
+  <ul>
+    <li>Led K3 division overseeing security, medical response, and sanitation protocols for a 3-day orientation program.</li>
+  </ul>
+</div>
+<div class="entry">
+  <div class="entry-head">
+    <span class="entry-title">Staff of Goods and Facilities Procurement, HIMAFIWEEK</span>
+    <span class="entry-date">Jun 2023 – Oct 2023</span>
+  </div>
+  <ul>
+    <li>Procured facilities and equipment for 10 competition matches and events.</li>
+  </ul>
+</div>
+
+<h2>Skills</h2>
+<div class="skills-grid">
+  <div class="skill-cat"><b>AI &amp; Programming</b>Python, C/C++, OpenAI Whisper Integration, Prompt Engineering, RAG (basic), Groq/Claude API, Data Analysis (Linear Regression)</div>
+  <div class="skill-cat"><b>IoT &amp; Electronics</b>ESP32, Arduino, Wemos D1 R1, MQTT, Node-RED, Sensor Calibration, PCB/Circuit Assembly</div>
+  <div class="skill-cat"><b>Instrumentation</b>Scintillation Detectors, Thermopiles, Tesla Meters, Cassy Lab Software</div>
+  <div class="skill-cat"><b>Soft Skills</b>Leadership, Technical Mentoring, Problem Solving, Project Management, Cross-functional Collaboration</div>
+  <div class="skill-cat"><b>IT &amp; Hardware</b>PC Hardware Building, Performance Optimization, IT Troubleshooting</div>
+  <div class="skill-cat"><b>Languages</b>English (Professional Working Proficiency), Arabic (Elementary)</div>
+</div>
+
+</body>
+</html>
